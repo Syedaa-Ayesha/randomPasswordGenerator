@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Signika Negative', sans-serif;
+    background-color: #00203FFF;
+
+}
+
+section {
+    height: 340px;
+    width: 800px;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+
+}
+
+h1 {
+    background-color: transparent;
+    font-size: 44px;
+    color: #ffffff;
+}
+
+h3 {
+    width: 44%;
+    border: 3px solid #ADEFD1FF;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+span {
+    font-size: 48px;
+    color: #ADEFD1FF;
+    text-transform: capitalize;
+}
+
+.show {
+    margin-top: 35px;
+    height: 80px;
+    width: 100%;
+}
+
+input {
+    font-size: 20px;
+    color: #00203FFF;
+    padding: 15px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    height: 65px;
+    width: 60%;
+    background-color: #ffffff;
+}
+
+.copy {
+
+    background-color: #ffffff;
+    cursor: pointer;
+    position: relative;
+    top: 6px;
+    right: 40px;
+}
+
+.create {
+    margin-top: 8px;
+    background-color: #ADEFD1FF;
+    height: 34px;
+    /* border: 1px solid rgb(233, 233, 51); */
+}
+
+.btn-content {
+    font-size: 18px;
+    color: #00203FFF;
+    background-color: #ADEFD1FF;
+    position: relative;
+    bottom: 10px;
+    left: 0;
+
+}
+
+button {
+    padding: 6px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    height: 60px;
+    width: 210px;
+    background-color: #ADEFD1FF;
+}
+
+@media only screen and (max-width: 600px) {
+    section {
+        margin: 0px 10px;
+        height: max-content;
+        width: max-content;
+        position: absolute;
+        top: 30%;
+        left: 0;
+
+    }
+
+    input {
+        height: 55px;
+        width: 90%;
+        background-color: #ffffff;
+    }
+
+    span {
+        font-size: 38px;
+    }
+
+    h3 {
+        width: 84%;
+    }
+}

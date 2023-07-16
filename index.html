@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rondom Password Generator</title>
+  <link rel="shortcut icon" href="images\images-removebg-preview.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section>
+    <div class="password">
+      <h1>Generate a <br><span>random Password</span></h1>
+      <h3></h3>
+    </div>
+    <div class="show">
+      <input type="text" id="password" placeholder="Password">
+      <img class="copy" src="./images/icons8-copy-24 (1).png" onclick="copyPassword()" alt="">
+    </div>
+    <button type="button" onclick="generatePassword()"><img class="create" src="./images/icons8-electricity-64.png"
+        alt=""><span class="btn-content">Generate Password</span></button>
+  </section>
+  <script src="./app.js"></script>
+</body>
+
+</html>
